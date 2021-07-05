@@ -1,0 +1,17 @@
+const String HomePageRoute = '/';
+const String LoginPageRoute = 'login';
+const String CustomersRoute = 'customers';
+const String CustomersEditPageRoute = 'edit_customer';
+const String SignUpPageRoute = 'sign_up';
+const String SettingsPageRoute = 'settings';
+const String ActivityLogPageRoute = 'activity_log';
+const String ActivityLogListPageRoute = 'activity_log_list';
+const String ClubActivityLogListPageRoute = 'club_activity_log_list';
+const String AnnouncementsListPageRoute = 'announcements_list';
+const String CavePageRoute = 'cave';
+const String CaveListRoute = 'cave_list';
+const String CreateCavePageRoute = 'create_cave';
+const String LocationSelectRoute = 'location_select';
+const String CallOutPageRoute = 'call_out';
+const String ClubhubPageRoute = 'clubhub';
+const String SubscriptionPageRoute = 'subscription';

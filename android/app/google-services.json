@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1086778997038",
+    "project_id": "cave-tracker",
+    "storage_bucket": "cave-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086778997038:android:d2db42c933a4dad34622bf",
+        "android_client_info": {
+          "package_name": "hytechsolutions.info.caving_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086778997038-7fsuhgqarb6c1o512a4uqipjftteugn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgsYsAjn8buVloz65LJHmfBijyZsmMlMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086778997038-7fsuhgqarb6c1o512a4uqipjftteugn7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1086778997038-acrknlp20s6ucvc1fcbltstme31jldmq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "hytechsolutions.info.caveTracker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
