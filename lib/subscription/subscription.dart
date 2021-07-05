@@ -43,7 +43,6 @@ class _SubscriptionPageState extends State<SubscriptionPage> {
     try {
       purchaserInfo = await Purchases.getPurchaserInfo();
       print(purchaserInfo);
-      print('lalaalaa');
       Offerings offerings = await Purchases.getOfferings();
       package = offerings.current.monthly;
       if (offerings.current != null && offerings.current.monthly != null) {

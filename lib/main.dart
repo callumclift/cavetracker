@@ -35,7 +35,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   //InAppPurchaseConnection.enablePendingPurchases();
   await Purchases.setDebugLogsEnabled(true);
-  await Purchases.setup("IwJGzWDeUjejhhDWIikcFTaQFyAuOLKh");
+  await Purchases.setup(purchasesKey);
   sharedPreferences = await SharedPreferences.getInstance();
   setupLocator();
   String firebaseAppId = GlobalFunctions.getFirebaseAppId();
@@ -93,7 +93,6 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> initPlatformState() async {
     // await Purchases.setDebugLogsEnabled(true);
-    // await Purchases.setup("IwJGzWDeUjejhhDWIikcFTaQFyAuOLKh");
 
     purchaserInfo = await Purchases.getPurchaserInfo();
   }
