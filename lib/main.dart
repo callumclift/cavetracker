@@ -104,11 +104,12 @@ class _MyAppState extends State<MyApp> {
     } else {
       // print(_purchasingModel.products);
       // print('after');
-      print(purchaserInfo);
-      print(purchaserInfo.activeSubscriptions);
-      print(purchaserInfo.latestExpirationDate);
-      print(purchaserInfo.firstSeen);
-      purchaserInfo.entitlements.active.isEmpty ? returnedRoute = SubscriptionPage() : returnedRoute = Clubhub();
+      // print(purchaserInfo);
+      // print(purchaserInfo.activeSubscriptions);
+      // print(purchaserInfo.latestExpirationDate);
+      // print(purchaserInfo.firstSeen);
+      // purchaserInfo.entitlements.active.isEmpty ? returnedRoute = SubscriptionPage() : returnedRoute = Clubhub();
+      returnedRoute = Clubhub();
       //returnedRoute = SubscriptionPage(_purchasingModel);
     }
     return returnedRoute;
